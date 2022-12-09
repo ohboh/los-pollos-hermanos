@@ -5,9 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Los Pollos Hermanos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="content"></div>
+    <header>
+        <img src="../assets/pollosLogo4.png" class="logo small">
+        <nav>
+            <div id="home" class="header selected">Home</div>
+            <div id="menu" class="header unselected">Menu</div>
+            <div id="contact" class="header unselected">Contact</div>
+        </nav>
+    </header>
+    <div id="content">
+        <video width="1280" height="720" autoplay muted loop>
+            <source src="../assets/pollosVid.mp4" type="video/mp4">
+        </video>
+        <div id="overlay-wrap"></div>
+        <img src="../assets/pollosLogo3.png" class="logo big">
+    </div>
+    <footer>by ohboh</footer>
     <script src="main.js"></script>
 </body>
 </html>
