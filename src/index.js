@@ -1,1 +1,3 @@
-console.log("nyahallo");
+import loadHomePage from "./modules/loadHomePage"
+
+loadHomePage();
