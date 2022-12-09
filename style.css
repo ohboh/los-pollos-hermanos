@@ -16,8 +16,8 @@ header {
     background-color: #F3D70D;
     width: 100%;
     z-index: 10;
-    padding-bottom: 2vh;
-    padding-top: 2vh;
+    padding-bottom: 1.5vh;
+    padding-top: 1.5vh;
     border-top: 5px solid #CA270A;
     border-bottom: 5px solid #CA270A;
 }
@@ -28,25 +28,25 @@ header {
 }
 
 .small {
-    width: 15%;
-    margin-right: 80%;
+    width: 16%;
+    margin-right: 77%;
 }
 
 nav {
     display: flex;
-    position: absolute;
     justify-content: center;
     align-items: center;
     column-gap: 80%;
     position: absolute;
+    right: 40%;
 }
 
 .header {
-    font-size: 5vh;
+    font-size: 6vh;
     color: #CA270A;
     position: relative;
     cursor: pointer;
-    -webkit-text-stroke: 1px #244A95;
+    -webkit-text-stroke: 0.75px #244A95;
     transform: scale(1);
 }
 
@@ -69,11 +69,11 @@ video {
 
 .big {
     position: absolute;
-    width: 40%;
+    width: 45%;
 }
 
 .big:hover {
-    width: 45%;
+    width: 50%;
 }
 
 footer {
