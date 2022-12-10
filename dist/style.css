@@ -87,6 +87,7 @@ video {
 .menu {
     pointer-events: none;
     width: 115vh;
+    height: auto;
 }
 
 .menu-subtitle {
