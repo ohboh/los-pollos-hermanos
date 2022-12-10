@@ -8,7 +8,9 @@ Technology used:
 - HTML
 - CSS
 - Webpack
-
+  
+    
+      
 Live Preview: https://ohboh.github.io/los-pollos-hermanos/
 
 ![pollosSiteScreenshot](https://user-images.githubusercontent.com/111236045/206863006-477e9d2b-d9e9-4ce7-aeea-166179afdf55.png)
