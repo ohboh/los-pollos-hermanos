@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Burrito;
+    background-color: #CA270A;
 }
 
 header {
@@ -46,25 +47,26 @@ nav {
     color: #CA270A;
     position: relative;
     cursor: pointer;
-    -webkit-text-stroke: 0.75px #244A95;
+    -webkit-text-stroke: 0.9px #244A95;
     transform: scale(1);
 }
 
-.unselected:hover, .selected {
+.header:hover, .selected {
     transform: scale(1.25);
 }
-
-
 
 #content {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-color: #F3D70D;
 }
 
 video {
     width: 100%;
-    height: auto;
+    height: 100%;
+    background: #F3D70D;
 }
 
 .big {
@@ -76,14 +78,52 @@ video {
     width: 50%;
 }
 
+.menu-title {
+    font-size: 20vh;
+    color:#CA270A;
+    -webkit-text-stroke: 4.5px #244A95;
+}
+
+.menu {
+    pointer-events: none;
+    width: 115vh;
+}
+
+.menu-subtitle {
+    font-size: 5vh;
+    color:#CA270A;
+    -webkit-text-stroke: 1px #244A95;
+    padding-bottom: 2vh;
+}
+
+.contact-title {
+    font-size: 20vh;
+    color:#CA270A;
+    -webkit-text-stroke: 4.5px #244A95;
+    margin-bottom: 4vh;
+}
+
+.contact-subtitle {
+    font-size: 6vh;
+}
+
+.contact-text {
+    font-size: 4vh;
+    margin-bottom: 2vh;
+}
+
+.fring {
+    margin-top: 2vh;
+}
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #CA270A;
     color: #F3D70D;
-    font-size: 2vh;
-    padding: 1vh;
+    font-size: 1.5vh;
+    padding: 1.5vh;
 
 }
 
