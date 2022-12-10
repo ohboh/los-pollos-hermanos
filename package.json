@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ohboh/restaurant-page#readme",
   "devDependencies": {
     "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   }
