@@ -5,6 +5,8 @@ import clearPage from "../modules/clearPage";
 function createVideo(){
     const vid = document.createElement("video");
     vid.src = homeVideo;
+    vid.width = 1280;
+    vid.height = 720;
     vid.autoplay = true;
     vid.muted = true;
     vid.loop = true;

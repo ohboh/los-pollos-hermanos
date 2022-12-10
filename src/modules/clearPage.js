@@ -1,6 +1,8 @@
 function clearPage() {
     const content = document.getElementById("content");
-    return content.innerHTML = "";
+    content.innerHTML = "";
+    content.className = ""
+    return content;
 }
 
 export default clearPage;
